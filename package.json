@@ -1,0 +1,17 @@
+{
+  "name": "my-virtualbackground",
+  "version": "1.0.0",
+  "description": "testing ",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production --progress",
+    "dev": "webpack --mode production --watch --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
